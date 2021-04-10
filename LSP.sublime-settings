@@ -1,0 +1,25 @@
+{
+	"clients":
+	{
+		"typescript-language-server":
+		{
+			"enabled": false,
+		},
+		"rust-analyzer":
+		{
+			"enabled": true,
+			"initializationOptions": {
+                "cargo": {
+                    "loadOutDirsFromCheck": true,
+                },
+                "procMacro": {
+                    "enable": true,
+                }
+            }
+		},
+		"LSP-typescript":
+		{
+			"enabled": false,
+		},
+	},
+}

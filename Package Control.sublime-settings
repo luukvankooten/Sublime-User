@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Debugger",
+		"LSP",
+		"MarkdownLivePreview",
+		"Package Control",
+		"PackageDev",
+		"SideBarEnhancements",
+		"Terminus",
+		"TOML",
+		"TypeScript",
+	],
+}

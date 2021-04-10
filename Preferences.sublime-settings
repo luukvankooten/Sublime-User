@@ -1,0 +1,12 @@
+{
+	"font_size": 15,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"show_errors_inline": false,
+	"open_files_in_new_window": true,
+	"ui_scale": 1.0,
+	"show_project_first": true,
+	"spell_check": true,
+}
