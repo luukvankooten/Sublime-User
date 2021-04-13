@@ -5,9 +5,11 @@
 	],
 	"installed_packages":
 	[
+		"AutomaticPackageReloader",
 		"Debugger",
 		"LSP",
 		"MarkdownLivePreview",
+		"Origami",
 		"Package Control",
 		"PackageDev",
 		"SideBarEnhancements",
