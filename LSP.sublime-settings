@@ -1,17 +1,18 @@
 {
+  	"show_references_in_quick_panel": true,
+	"lsp_format_on_save": true,
+  	"inhibit_snippet_completions": true,
 	"clients":
 	{
-		"rust-analyzer":
-		{
-			"enabled": false,
-			"initializationOptions": {
-                "cargo": {
-                    "loadOutDirsFromCheck": true,
-                },
-                "procMacro": {
-                    "enable": true,
-                },
-            },
-		},
+		"rust-analyzer": {
+            "enabled": true,
+  			"command": [
+        		"rustup",
+        		"run",
+        		"nightly",
+        		"rust-analyzer",
+			],
+            "selector": "source.rust"
+  		},
 	},
 }

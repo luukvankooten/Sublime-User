@@ -1,5 +1,9 @@
 {
 	"rust_syntax_checking_include_tests": false,
 	"rust_region_style": "squiggly_underline",
-	"rust_message_status_bar": true
+	"rust_message_status_bar": true,
+	"rust_syntax_checking_method": "clippy",
+    "rust_phantom_style": "popup",
+
+
 }

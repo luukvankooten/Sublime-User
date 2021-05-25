@@ -6,15 +6,16 @@
 	"installed_packages":
 	[
 		"AutomaticPackageReloader",
-		"Debugger",
+		"Dracula Color Scheme",
+		"FileIcons",
 		"LSP",
 		"MarkdownLivePreview",
-		"Origami",
 		"Package Control",
 		"PackageDev",
+		"Rust Enhanced",
 		"SideBarEnhancements",
 		"Terminus",
+		"Theme - Gravity",
 		"TOML",
-		"TypeScript",
 	],
 }
