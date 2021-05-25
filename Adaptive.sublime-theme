@@ -1,0 +1,22 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+	"variables":
+	{
+	},
+	"rules":
+	[
+		{
+			"class": "tabset_control",
+			"tab_width": 250,
+			"tab_height": 40,
+		},
+		{
+			"class": "tab_control",
+			"content_margin": [25, 5, 20, 4]
+		},
+		{
+			"class": "tab_label",
+			"font.size": 11
+		},
+	]
+}

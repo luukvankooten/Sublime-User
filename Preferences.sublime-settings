@@ -1,5 +1,5 @@
 {
-	"font_size": 14,
+	"font_size": 13,
 	"ignored_packages":
 	[
 		"Rust",
@@ -7,9 +7,9 @@
 	],
 	"show_errors_inline": false,
 	"open_files_in_new_window": true,
-	"ui_scale": 1.02,
+	"ui_scale": 1.15,
 	"show_project_first": true,
- 	"theme": "Gravity One.sublime-theme", 
+ 	"theme": "Adaptive.sublime-theme", 
 	// "theme": "Gravity.sublime-theme",
 	"color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
 	"enable_tab_scrolling": false,
