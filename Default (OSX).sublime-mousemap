@@ -4,6 +4,10 @@
         "count": 1, 
         "modifiers": ["super"],
         "press_command": "drag_select",
-        "command": "lsp_symbol_definition"
+        "command": "lsp_symbol_definition",
+        "context": [
+             { "key": "panel_has_focus", "operator": "equal", "operand": true },
+             { "key": "text", "operator": "equal", "operand": false}
+        ]
     }
 ]

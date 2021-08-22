@@ -1,7 +1,11 @@
 {
   	"show_references_in_quick_panel": true,
-	"lsp_format_on_save": true,
+	"lsp_format_on_save": false,
   	"inhibit_snippet_completions": true,
+  	"show_code_actions": "bulb",
+	"show_diagnostics_panel_on_save": 0,
+	"show_code_lens": "phantom",
+	"show_view_status": false,
 	"clients":
 	{
 		"rust-analyzer": {

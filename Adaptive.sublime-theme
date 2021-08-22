@@ -6,17 +6,17 @@
 	"rules":
 	[
 		{
-			"class": "tabset_control",
-			"tab_width": 250,
-			"tab_height": 40,
+			// "class": "tabset_control",
+			// "tab_width": 250,
+			// "tab_height": 40,
 		},
 		{
-			"class": "tab_control",
-			"content_margin": [25, 5, 20, 4]
+			// "class": "tab_control",
+			// "content_margin": [25, 8, 20, 4]
 		},
 		{
 			"class": "tab_label",
-			"font.size": 11
+			"font.size": 12
 		},
 	]
 }
