@@ -11,17 +11,23 @@ class AutoReadOnly(sublime_plugin.EventListener):
     ]
 
     def on_load(self, view):
-        window = view.window()
+        # window = view.window()
         view_path = view.file_name()
 
-        print(view_path)
+        if self.does_match(view_path):
+            view.set_read_only(True)
+            view.set_status(str(self), "read-only")
+
+    def on_deactivated(self, view):
+        view_path = view.file_name()
+
+        if self.does_match(view_path):
+            view.close()
+
+    def does_match(self, path):
         for pattern in self.PATTERNS:
-            if fnmatch(view_path, pattern):
-                view.set_read_only(True)
-                view.set_status(str(self), "read-only")
-                print(
-                    "[{0}] {1!r} matched pattern {2!r}".format(
-                        self.__class__.__name__, view_path, pattern
-                    )
-                )
+            if fnmatch(path, pattern):
+                return True
                 break
+
+        return False
