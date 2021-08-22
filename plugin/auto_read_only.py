@@ -5,13 +5,16 @@ class AutoReadOnly(sublime_plugin.EventListener):
 
     PATTERNS = [
         "/Applications/Sublime Text.app/Contents/MacOS/*.py",
-        "*/Python.framework/*/lib/*.py",
-        "*/.cargo/**.rs"
+        "**/Python.framework/*/lib/*.py",
+        "**/.rustup/**.rs",
+        "**/node_modules/**.js"
     ]
 
-    def on_load_async(self, view):
-        window = view.window();
+    def on_load(self, view):
+        window = view.window()
         view_path = view.file_name()
+
+        print(view_path)
         for pattern in self.PATTERNS:
             if fnmatch(view_path, pattern):
                 view.set_read_only(True)

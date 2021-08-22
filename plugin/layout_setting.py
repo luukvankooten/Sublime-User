@@ -2,7 +2,7 @@ import sublime
 import sublime_plugin
 
 class LayoutSetting(sublime_plugin.EventListener):
-	def on_new_window_async(self, window):
+	def on_new_window(self, window):
 		settings = window.settings()
 
 		if "folder" in view.window().extract_variables() and window.active_panel() is None and settings.get("user_toggled_panel", False) is False:
@@ -12,6 +12,7 @@ class LayoutSetting(sublime_plugin.EventListener):
 			window.set_sidebar_visible(True)
 
 		window.set_minimap_visible(False)
+
 
 	def on_window_command(self, window, command_name, args):
 		settings = window.settings()
