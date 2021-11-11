@@ -5,7 +5,7 @@ class LayoutSetting(sublime_plugin.EventListener):
 	def on_new_window(self, window):
 		settings = window.settings()
 
-		if "folder" in view.window().extract_variables() and window.active_panel() is None and settings.get("user_toggled_panel", False) is False:
+		if "folder" in window.extract_variables() and window.active_panel() is None and settings.get("user_toggled_panel", False) is False:
 			window.run_command("toggle_terminus_panel")
 
 		if settings.get("user_toggled_side_bar", False) is False:
