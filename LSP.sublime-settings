@@ -1,6 +1,6 @@
 {
   	"show_references_in_quick_panel": true,
-	"lsp_format_on_save": false,
+	"lsp_format_on_save": true,
   	"inhibit_snippet_completions": true,
   	"show_code_actions": "bulb",
 	"show_diagnostics_panel_on_save": 0,
