@@ -14,6 +14,7 @@
 		"Git",
 		"LSP",
 		"LSP-OmniSharp",
+		"LSP-pylsp",
 		"LSP-typescript",
 		"MarkdownLivePreview",
 		"OmniSharp",

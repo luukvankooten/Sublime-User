@@ -2,6 +2,7 @@ from fnmatch import fnmatch
 import sublime_plugin
 import sublime
 
+
 class AutoReadOnly(sublime_plugin.EventListener):
 
     PATTERNS = [
@@ -13,7 +14,6 @@ class AutoReadOnly(sublime_plugin.EventListener):
     ]
 
     def on_load(self, view):
-        # window = view.window()
         view_path = view.file_name()
 
         if self.does_match(view_path):

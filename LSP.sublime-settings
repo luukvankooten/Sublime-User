@@ -5,18 +5,8 @@
   	"show_code_actions": "bulb",
 	"show_diagnostics_panel_on_save": 0,
 	"show_code_lens": "phantom",
-	"show_view_status": false,
+	"show_view_status": true,
 	"clients":
 	{
-		"rust-analyzer": {
-            "enabled": true,
-  			"command": [
-        		"rustup",
-        		"run",
-        		"nightly",
-        		"rust-analyzer",
-			],
-            "selector": "source.rust"
-  		},
 	},
 }
