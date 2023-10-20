@@ -6,5 +6,11 @@
             "post_window_hooks": [
                 ["carry_file_to_pane", {"direction": "right"}] ]
         }
-    }
+    },
+    {
+        "keys": [
+            "alt+enter"
+        ],
+        "command": "lsp_code_actions",
+    },
 ]

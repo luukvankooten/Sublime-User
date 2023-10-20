@@ -1,4 +1,5 @@
 {
 	"256color": true,
-	"theme": "dark-pastel",
+	"theme": "default",
+	"unix_term": "xterm-256color"
 }

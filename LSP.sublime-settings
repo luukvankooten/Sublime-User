@@ -1,12 +1,15 @@
 {
   	"show_references_in_quick_panel": true,
-	"lsp_format_on_save": true,
   	"inhibit_snippet_completions": true,
   	"show_code_actions": "bulb",
-	"show_diagnostics_panel_on_save": 0,
 	"show_code_lens": "phantom",
 	"show_view_status": true,
-	"clients":
-	{
+	"lsp_format_on_save": true,
+	"lsp_code_actions_on_save": {
+		"source.fixAll.eslint": true
 	},
+	"log_debug": true,  
+	"log_server": true,
+	"log_payloads": true,
+	"log_stderr": true,
 }

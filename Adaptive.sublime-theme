@@ -2,6 +2,7 @@
 {
 	"variables":
 	{
+		"medium_dark_bg": "color(var(--background) blend(black 50%))",
 	},
 	"rules":
 	[

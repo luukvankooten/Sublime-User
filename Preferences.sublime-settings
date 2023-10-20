@@ -1,5 +1,5 @@
 {
-	"font_size": 13,
+	"font_size": 12,
 	"ignored_packages":
 	[
 		// "Rust",
@@ -9,12 +9,22 @@
 	"open_files_in_new_window": true,
 	"ui_scale": 1.2,
 	"show_project_first": true,
-	"color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
+	"color_scheme": "Catppuccin Latte.sublime-color-scheme",
 	"enable_tab_scrolling": false,
 	"close_deleted_files": true,
-	"file_tab_style": "angled",
 	"shell_exec_executable": "/bin/zsh",
-	"font_face": "Menlo",
+	"font_face": "Fira Code",
 	"preview_on_click": false,
 	"theme": "Adaptive.sublime-theme",
+	"update_check": true,
+	"show_encoding": true,
+	"hide_new_tab_button": true,
+	"adaptive_dividers": true,
+	"focus_on_file_drop": true,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "light_color_scheme": "Breakers.sublime-color-scheme",
+  /*"font_size": 12,*/
+  "auto_complete_use_history": true,
+
 }
