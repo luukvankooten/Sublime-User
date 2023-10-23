@@ -3,14 +3,18 @@
 	"ignored_packages":
 	[
 		// "Rust",
+		"ImagePreview",
+		"LSP-OmniSharp",
+		"Origami",
+		"TypeScript Syntax",
 		"Vintage",
 	],
 	"show_errors_inline": false,
 	"open_files_in_new_window": true,
 	"ui_scale": 1.2,
 	"show_project_first": true,
-	"color_scheme": "Catppuccin Latte.sublime-color-scheme",
-	"enable_tab_scrolling": false,
+	"color_scheme": "Xcode Default.sublime-color-scheme",
+	"enable_tab_scrolling": true,
 	"close_deleted_files": true,
 	"shell_exec_executable": "/bin/zsh",
 	"font_face": "Fira Code",
@@ -26,5 +30,9 @@
   "light_color_scheme": "Breakers.sublime-color-scheme",
   /*"font_size": 12,*/
   "auto_complete_use_history": true,
+  /*"hide_new_tab_button": true,*/
+  /*"adaptive_dividers": true,*/
+	"highlight_modified_tabs": true,
+
 
 }

@@ -2,10 +2,10 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"TypeScript Syntax",
 	],
 	"installed_packages":
 	[
-		"0x0",
 		"A File Icon",
 		"BinaryPlist",
 		"Catppuccin color schemes",
@@ -32,6 +32,7 @@
 		"LSP-typescript",
 		"MarkdownLivePreview",
 		"Package Control",
+		"Package Reloader",
 		"PackageDev",
 		"Razor C# Syntax",
 		"Rust Enhanced",

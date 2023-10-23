@@ -10,11 +10,13 @@ class AutoReadOnly(sublime_plugin.EventListener):
         "**/Python.framework/*/lib/*.py",
         "**/.rustup/**.rs",
         "**/.cargo/**.rs",
-        "**/node_modules/**.js"
+        "**/node_modules/**.js",
+        "**/node_modules/**.ts"
     ]
 
     def on_load(self, view):
         view_path = view.file_name()
+        print(view.file_name())
 
         if self.does_match(view_path):
             view.set_read_only(True)
@@ -24,6 +26,5 @@ class AutoReadOnly(sublime_plugin.EventListener):
         for pattern in self.PATTERNS:
             if fnmatch(path, pattern):
                 return True
-                break
 
         return False
